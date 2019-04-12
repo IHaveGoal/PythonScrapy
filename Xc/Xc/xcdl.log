@@ -1,0 +1,149 @@
+2019-03-29 17:29:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 64, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:30:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 64, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:30:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 65, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:30:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 65, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:31:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 65, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:32:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 66, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:32:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 67, in parse
+    infos["severaddr"] = severaddr
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'XcItem does not support field: severaddr'
+2019-03-29 17:38:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 61, in parse
+    print(country,ipaddress,port,severaddr,isanonyumous,type,alivetime,verifitime)
+NameError: name 'severaddr' is not defined
+2019-03-29 17:40:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.xicidaili.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Victor\Anaconda3\envs\Scrapy\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Users\Victor\Documents\GitHub\Scrapy\Xc\Xc\spiders\Xczz.py", line 61, in parse
+    print(country,ipaddress,port,severaddr,isanonyumous,type,alivetime,verifitime)
+NameError: name 'severaddr' is not defined
